@@ -7,14 +7,8 @@ unit ZGL_HinstScreenManager;
 interface
 
 uses
-  ZenGL_EngineStartupSettingsUnit, LazarusPackageIntf;
+  ZenGL_EngineStartupSettingsUnit, ZenGL_EngineStartupDialogUnit;
 
 implementation
 
-procedure Register;
-begin
-end;
-
-initialization
-  RegisterPackage('ZGL_HinstScreenManager', @Register);
 end.
